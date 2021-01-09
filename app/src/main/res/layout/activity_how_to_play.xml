@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToPlay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/View"
+                android:layout_marginTop="20dp"
+                android:text="The money tap game is very easy to play. The game interface consists of four buttons, a score board, a bank value and life values. Random numbers will appear on the buttons; random numbers ranged from 1-10. When the number 5 appears on a button the player is required to click the button to earn him/herself 5ksh which will reflect on the score board. If the player fails to click on a button when the number 5 apppears on it, he/she looses half a life. If the player clicks on a number other than 5, he/she looses a life. Once the score reaches 50 i.e once you have earned 50ksh, it will go straight to the bank, and it will searve as your first checkpoint, such that even if you ran out of lives you will have 50ksh in the bank. The next checkpoint will be 100ksh away i.e at 150, then at 250, then at 350 and so on. However, you bank should read above 500ksh if the player wishes to withdraw his/her money.Play the demo to get a better understanding of the game."  />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="NB: The bank and score details are stored in your phone so you risk loosing your scores if you clear the applications data" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_alignParentTop="true"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:text="GAME PLAY" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0"
+                android:layout_below="@id/textView12"
+                android:layout_marginTop="8dp"
+                android:id="@+id/View"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+   
